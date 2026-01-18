@@ -8,13 +8,13 @@
 <body>
 <h2>Javascript Working</h2>
 <script>
-const data = { name: "Mohit", age: 30 };
+const data = { name: "Suhani", age: 20 };
 const jsonStr = JSON.stringify(data);
-console.log(jsonStr); // Output: '{"name":"Mohit","age":30}'
+console.log(jsonStr); // Output: '{"name":"Suhani","age":20}'
 document.write(jsonStr + "<br>");
 document.write("Name :"+data.name + "<br>");
 document.write("Age :"+data.age + "<br>");
-const emp = '{"id":"09", "name": "Nitin", "department":"Finance"}';
+const emp = '{"id":"01", "name": "Shreya", "department":"Finance"}';
 console.log("This is JSON", typeof emp);
 document.writeln("This is JSON " + typeof emp + "<br>");
 console.log("Now convert from JSON to JavaScript");
@@ -29,10 +29,10 @@ document.writeln("ID: " + obj.id + ", Name: " + obj.name + ", Department: " + ob
 And add following script tag in html file
 <script type="mpy" terminal>
 import json
-data = {"name": "Mohit", "age": 30}
+data = {"name": "Suhani", "age": 20}
 json_str = json.dumps(data)
-print(json_str) # Output: '{"name": "Mohit", "age": 30}'
-emp = '{"id":"09", "name": "Nitin", "department":"Finance"}'
+print(json_str) # Output: '{"name": "Suhani", "age": 20}'
+emp = '{"id":"01", "name": "Shreya", "department":"Finance"}'
 print("This is JSON", type(emp))
 print("Now convert from JSON to Python")
 d = json.loads(emp)
